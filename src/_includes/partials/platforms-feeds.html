@@ -1,0 +1,81 @@
+<section class="py-5 bg-white" id ="solution">
+
+
+<!-- platform  linked start -->
+<div class="container ">
+    <h2 class=" mb-2 text-black fw-semibold fs-1 text-center mt-5">All platfroms connected to FindTrend</h2>
+
+    <div class="row  mt-5">
+        <div class="col-12 ">
+            <ul class="navscroll | nav nav-tabs d-flex   flex-nowrap py-1  " id="myTab" role="tablist">
+
+                {% for item in platforms.socials %}
+
+
+                {% if item.name === 'twitter' %}
+
+                <li class="nav-item col-4 col-md-auto " role="presentation">
+                    <button class="nav-link active " id="{{item.name}}" data-bs-toggle="tab"
+                        data-bs-target="#{{item.name}}-pane" type="button" role="tab" aria-controls="{{item.name}}"
+                        aria-selected="true">
+                        <img class="w-75 " src="./../../images/social/{{item.name}}.png">
+                        {# ./images/  #}
+                    </button>
+                </li>
+                {% else %}
+                <li class="nav-item col-4 col-md-auto" role="presentation">
+                    <button class="nav-link " id="{{item.name}}" data-bs-toggle="tab"
+                        data-bs-target="#{{item.name}}-pane" type="button" role="tab" aria-controls="{{item.name}}"
+                        aria-selected="true">
+                        <img class="w-75 " src="./../../images/social/{{item.name}}.png">
+                        {# ./images/ #}
+                    </button>
+                </li>
+
+                {% endif %}
+
+                {% endfor %}
+
+
+
+
+
+
+
+
+
+
+            </ul>
+        </div>
+
+        <div class="col-12 col-md-7 mx-md-auto text-dark">
+            <div class="tab-content" id="myTabContent">
+
+
+
+                <div class="tab-pane fade show active" id="twitter-pane" role="tabpanel"
+                    aria-labelledby="twitter-tab" tabindex="0">
+                    <div class="mt-5">
+                        <img src="../../images/tweet1.png" class="img-fluid" alt="tweet1">
+                        <img src="../../images/tweet2.png" class="img-fluid" alt="tweet2">
+                        <img src="../../images/tweet3.png" class="img-fluid" alt="tweet3">
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+    <div class="view-more-cta text-center my-5">
+        <a href="#" class="btn  px-3 py-2 bg-dark text-white rounded-pill text-capitalize" role="button" data-bs-toggle="button">view more trend </a>
+    </div>
+</div>
+<!-- platfrom linked end -->
+
+</section>
+

@@ -1,0 +1,49 @@
+<section class="pricing | py-6 bg-black" id="pricing">
+  <div class="container">
+    <h2 class="display-4 fw-bold text-white text-capitalize text-center">get your best deal</h2>
+    <div class="price-toggler d-flex justify-content-center align-items-center mt-11 py-6">
+      <div class=" fs-2 text-white text-capitalize">monthly</div>
+      <div class="toggler bg-white rounded-pill mx-3 d-flex p-1  " id="toggler-pricing">
+        <div class="rounded-circle "></div>
+      </div>
+      <div class="fs-2 me-1 text-capitalize">yearly</div>
+      <img src="{{'images/pricing-arrow-to-left.png'}}" alt='pricing deal' 
+      class ="d-none d-lg-block" />
+
+
+    </div>
+
+    <div class="row mt-5  justify-content-center">
+      {% for pack in pricing.packs %}
+      <div class="pricing-col col-10  col-lg-3 p3 pb-4 rounded-3 overflow-hidden  d-flex flex-column">
+
+        <div class="border-bottom py-3 me-2 ps-3">
+          <h2 class="text-black display-9 fw-semibold text-capitalize mb-0">{{pack.name}}</h2>
+          <small class="fw-normal text-black ">{{pack.desc}}</small>
+        </div>
+
+        <div class=" text-center text-black mt-5">
+          <span class="fs-2">$</span><span class=" priceId | display-2 fw-semibold">{{pack.price}}</span>/<span
+            class="timeId">month</span>
+        </div>
+        <ul class="list-unstyled text-black py-3">
+          {% for prop in pack.properties %}
+
+          <li class="list-item d-flex align-items-center   mt-5 px-2 text-capitalize">
+            <i class="bi bi-check-lg px-2 fs-3"></i> {{prop}}
+          </li>
+
+          {% endfor %}
+        </ul>
+
+        <button class="btn rounded-pill text-capitalize bg-dark text-white mt-auto mb-2 mx-4"> start free trial
+        </button>
+
+
+
+      </div>
+      {% endfor %}
+    </div>
+
+  </div>
+</section>

@@ -1,0 +1,34 @@
+{
+    "socials" : [
+        {
+            "name" : "twitter",
+            "description" : "here goes twitter description"
+        },
+        {
+            "name" : "facebook",
+            "description" : "here goes facebook description"
+        },
+        {
+            "name" : "dribbble",
+            "description" : "here goes dribbble description"
+        },
+        {
+            "name" : "pinterest",
+            "description" : "here goes pinterest description"
+        },
+        {
+            "name" : "medium",
+            "description" : "here goes medium description"
+        },
+        {
+            "name" : "reddit",
+            "description" : "here goes reddit description"
+        },
+        {
+            "name" : "linkedIn",
+            "description" : "here goes linkedIn description"
+        }
+    ]
+
+   
+}

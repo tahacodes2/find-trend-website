@@ -1,0 +1,25 @@
+{
+    "people" : [
+        {
+            "name" : "elon musk",
+            "id":"twitter",
+            "pic": "elon",
+            "pubDate" : "jun 15",
+            "description" :  "tesla testla Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make "
+        },
+        {
+            "name" : "mark zuckerberg",
+            "pic": "mark",
+            "id": "facebook",
+            "pubDate" :"march 14",
+            "description" : "facebook  Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make "
+        },
+        {
+            "name" : "Zack Onisko ",
+            "pic": "zack",
+            "id":"dribbble",
+            "pubDate" :"may 17",
+            "description" : "dribbble Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make "
+        }
+    ]
+}

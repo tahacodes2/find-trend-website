@@ -1,0 +1,39 @@
+
+{
+    "packs": [
+        {
+            "name":"personal",
+            "desc" :"special fist packet for all",
+            "price": "8",
+            "properties" : [
+                "up to five page each group",
+                "up to 10 group page",
+                "5 days group paged saved"
+            ]
+        },
+        {
+            "name":"regular",
+            "desc" :"recomended for personal pro",
+            "price": "20",
+            "properties" : [
+                "up to 15 page each group",
+                "download page up to 20 pages",
+                "up to 10 group page",
+                "15 days group paged saved"
+            ]
+        },
+        {
+            "name":"premium",
+            "desc" :"rpacket for startUp and company",
+            "price": "48",
+            "properties" : [
+                "unlimited group page",
+                "unlimited download pages",
+                "unlimited page each group",
+                "customize sorting group pages",
+                "customize group page name",
+                "30 days group page saved"
+            ]
+        }
+    ]
+}
